@@ -1,17 +1,21 @@
 @charset "UTF-8";
-
 *{
     margin: 0px;
     padding: 0px;
 }
-img#espaco{
-    width: 100%;
-    min-width: 100px;
+body{
+    height: 100vh;
+    background-image: url("imagens/espaco.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-img#astronauta{
-    position: absolute;
-    width: 50%;
-    max-width: 600px;
-    min-width: 100px;
-    margin-left: 25%;
+
+div{
+    height: 100vh;
+    background-image: url("imagens/astronauta.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
